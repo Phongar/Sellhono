@@ -1,0 +1,127 @@
+.nav {
+    padding: 54px 355px;
+    letter-spacing: normal;
+}
+
+
+.nav-row {
+    display: flex;
+    align-items: center;
+    width: 1210px;
+    gap: 10px;
+}
+
+.logo {
+    padding-top: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.logo-title {
+    color: #292F36;
+    font-family: "DM Serif Display";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 50px */
+}
+
+.nav-list {
+  padding-left: 345px;
+}
+
+
+.nav-list-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.nav-list__link {
+    cursor: pointer;
+    color: #292F36;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+    transition: all 0.4s ease-in-out;
+}
+
+
+.nav-list__link--active {
+    color: #C76904;
+    text-align: center;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 25px */
+}
+
+.nav-list__link:hover {
+    color: #b16615;
+    opacity: 80%;
+}
+
+.search-icon {
+   margin-left: 25px;
+   cursor: pointer;
+}
+
+/*Dropdown Menu*/
+.dropdown__menu {
+    margin-top: 15px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+
+    border-radius: 30px;
+
+    font-size: 20px;
+
+    gap: 10px;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0s linear 0.5s;
+}
+
+.nav-list__item:hover .dropdown__menu {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0s;
+}
+
+.nav-list__item li :hover {
+    transition: all 0.3s ease-in-out;
+    color: #ad6b25;
+}
+
+.dropdown__menu li {
+    cursor: pointer;
+    padding-left: 30px;
+}
+
+.dropdown__menu a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #1e1f20;
+}
+/*Dropdown Menu*/
+
+
+
+
+
+
+
+
+
+

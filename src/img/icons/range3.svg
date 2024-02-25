@@ -1,0 +1,10 @@
+<svg width="536.500000" height="22.000000" viewBox="0 0 536.5 22" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<path id="Line" d="M1 9L534 9L534 14L1 14L1 9ZM533.98 9.02002L534 9C535.4 9 536.5 10.1 536.5 11.5C536.5 12.9 535.4 14 534 14L533.98 13.98L533.98 9.02002Z" fill="#F4F0EC" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Line" d="M0 8.5L418 8.5L418 13.5L0 13.5L0 8.5ZM417.98 8.52002L418 8.5C419.4 8.5 420.5 9.59998 420.5 11C420.5 12.4 419.4 13.5 418 13.5L417.98 13.48L417.98 8.52002Z" fill="#CDA274" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<circle id="Ellipse" cx="427.000000" cy="11.000000" r="11.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<circle id="Ellipse" cx="427.000000" cy="11.000000" r="8.500000" stroke="#CDA274" stroke-opacity="1.000000" stroke-width="5.000000"/>
+</svg>

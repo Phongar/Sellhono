@@ -1,0 +1,86 @@
+.accordion {
+    margin-top: -50px;
+
+
+    width: 585px;
+    height: 577px; 
+    
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+.accordion__item {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    border-bottom: 1px solid rgb(41, 47, 54);
+
+
+}
+
+.accordion-header {
+    width: 585px;
+    height: 70px;
+
+    color: rgb(41, 47, 54);
+    font-family: DM Serif Display;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 1%;
+    text-align: left;
+}
+
+.arrow-img {
+    position: absolute;
+    right: 10px;
+    width: 7px;
+    height: 13px;
+    transition: transform 0.3s ease;
+    transform-origin: center;
+
+    margin-top: 10px;
+}
+
+.arrow-img img {
+    width: 100%;
+}
+
+.arrow-img.open {
+    transform: rotate(90deg); /* Поворачиваем на 90 градусов при наличии класса open */
+}
+
+.accordion-body {
+
+    width: 585px;
+    height: 132px;
+
+    color: rgb(77, 80, 83);
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 1%;
+    text-align: left;
+
+    margin-bottom: 36px;
+}
+
+
+.accordion__collapse {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease; /* Добавляем переход с плавностью */
+}
+
+ .accordion__collapse.open {
+    height: auto; /* Высота автоматически адаптируется к содержимому при открытии */
+}
+
+
+
+
